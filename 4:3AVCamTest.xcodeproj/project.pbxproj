@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A131881B9E777300DBE4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A131871B9E777300DBE4EB /* main.m */; };
+		F5A1318B1B9E777300DBE4EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A1318A1B9E777300DBE4EB /* AppDelegate.m */; };
+		F5A1318E1B9E777300DBE4EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A1318D1B9E777300DBE4EB /* ViewController.m */; };
+		F5A131911B9E777300DBE4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A1318F1B9E777300DBE4EB /* Main.storyboard */; };
+		F5A131931B9E777300DBE4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A131921B9E777300DBE4EB /* Assets.xcassets */; };
+		F5A131961B9E777300DBE4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A131941B9E777300DBE4EB /* LaunchScreen.storyboard */; };
+		F5A131A11B9E777300DBE4EB /* __3AVCamTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A131A01B9E777300DBE4EB /* __3AVCamTestTests.m */; };
+		F5A131AC1B9E777300DBE4EB /* __3AVCamTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A131AB1B9E777300DBE4EB /* __3AVCamTestUITests.m */; };
+		F5A1FA301BA1752D006CEB7E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A1FA2F1BA1752D006CEB7E /* PlayViewController.m */; };
+		F5B2D0E11BA2B96B006BB840 /* Recoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B2D0E01BA2B96B006BB840 /* Recoder.m */; };
+		F5B2D0E31BA2B9E1006BB840 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B2D0E21BA2B9E1006BB840 /* PlayViewController.xib */; };
+		F5B51F601BA27E3C00EA8DB3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B51F5F1BA27E3C00EA8DB3 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A1319D1B9E777300DBE4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A1317B1B9E777300DBE4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A131821B9E777300DBE4EB;
+			remoteInfo = "4:3AVCamTest";
+		};
+		F5A131A81B9E777300DBE4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A1317B1B9E777300DBE4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A131821B9E777300DBE4EB;
+			remoteInfo = "4:3AVCamTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A131831B9E777300DBE4EB /* 4:3AVCamTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4:3AVCamTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A131871B9E777300DBE4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5A131891B9E777300DBE4EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5A1318A1B9E777300DBE4EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5A1318C1B9E777300DBE4EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5A1318D1B9E777300DBE4EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5A131901B9E777300DBE4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A131921B9E777300DBE4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A131951B9E777300DBE4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A131971B9E777300DBE4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A1319C1B9E777300DBE4EB /* 4:3AVCamTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4:3AVCamTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A131A01B9E777300DBE4EB /* __3AVCamTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __3AVCamTestTests.m; sourceTree = "<group>"; };
+		F5A131A21B9E777300DBE4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A131A71B9E777300DBE4EB /* 4:3AVCamTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4:3AVCamTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A131AB1B9E777300DBE4EB /* __3AVCamTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __3AVCamTestUITests.m; sourceTree = "<group>"; };
+		F5A131AD1B9E777300DBE4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A131BC1B9E820800DBE4EB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F5A1FA2E1BA1752D006CEB7E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		F5A1FA2F1BA1752D006CEB7E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		F5B2D0DF1BA2B96B006BB840 /* Recoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recoder.h; sourceTree = "<group>"; };
+		F5B2D0E01BA2B96B006BB840 /* Recoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recoder.m; sourceTree = "<group>"; };
+		F5B2D0E21BA2B9E1006BB840 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		F5B51F5F1BA27E3C00EA8DB3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A131801B9E777300DBE4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B51F601BA27E3C00EA8DB3 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A131991B9E777300DBE4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A131A41B9E777300DBE4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A1317A1B9E777300DBE4EB = {
+			isa = PBXGroup;
+			children = (
+				F5B51F5F1BA27E3C00EA8DB3 /* MediaPlayer.framework */,
+				F5A131851B9E777300DBE4EB /* 4:3AVCamTest */,
+				F5A1319F1B9E777300DBE4EB /* 4:3AVCamTestTests */,
+				F5A131AA1B9E777300DBE4EB /* 4:3AVCamTestUITests */,
+				F5A131841B9E777300DBE4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A131841B9E777300DBE4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A131831B9E777300DBE4EB /* 4:3AVCamTest.app */,
+				F5A1319C1B9E777300DBE4EB /* 4:3AVCamTestTests.xctest */,
+				F5A131A71B9E777300DBE4EB /* 4:3AVCamTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A131851B9E777300DBE4EB /* 4:3AVCamTest */ = {
+			isa = PBXGroup;
+			children = (
+				F5A131891B9E777300DBE4EB /* AppDelegate.h */,
+				F5A1318A1B9E777300DBE4EB /* AppDelegate.m */,
+				F5A1318C1B9E777300DBE4EB /* ViewController.h */,
+				F5A1318D1B9E777300DBE4EB /* ViewController.m */,
+				F5A1FA2E1BA1752D006CEB7E /* PlayViewController.h */,
+				F5A1FA2F1BA1752D006CEB7E /* PlayViewController.m */,
+				F5B2D0E21BA2B9E1006BB840 /* PlayViewController.xib */,
+				F5B2D0DF1BA2B96B006BB840 /* Recoder.h */,
+				F5B2D0E01BA2B96B006BB840 /* Recoder.m */,
+				F5A1318F1B9E777300DBE4EB /* Main.storyboard */,
+				F5A131BC1B9E820800DBE4EB /* Header.h */,
+				F5A131921B9E777300DBE4EB /* Assets.xcassets */,
+				F5A131941B9E777300DBE4EB /* LaunchScreen.storyboard */,
+				F5A131971B9E777300DBE4EB /* Info.plist */,
+				F5A131861B9E777300DBE4EB /* Supporting Files */,
+			);
+			path = "4:3AVCamTest";
+			sourceTree = "<group>";
+		};
+		F5A131861B9E777300DBE4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A131871B9E777300DBE4EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A1319F1B9E777300DBE4EB /* 4:3AVCamTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A131A01B9E777300DBE4EB /* __3AVCamTestTests.m */,
+				F5A131A21B9E777300DBE4EB /* Info.plist */,
+			);
+			path = "4:3AVCamTestTests";
+			sourceTree = "<group>";
+		};
+		F5A131AA1B9E777300DBE4EB /* 4:3AVCamTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A131AB1B9E777300DBE4EB /* __3AVCamTestUITests.m */,
+				F5A131AD1B9E777300DBE4EB /* Info.plist */,
+			);
+			path = "4:3AVCamTestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A131821B9E777300DBE4EB /* 4:3AVCamTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A131B01B9E777300DBE4EB /* Build configuration list for PBXNativeTarget "4:3AVCamTest" */;
+			buildPhases = (
+				F5A1317F1B9E777300DBE4EB /* Sources */,
+				F5A131801B9E777300DBE4EB /* Frameworks */,
+				F5A131811B9E777300DBE4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4:3AVCamTest";
+			productName = "4:3AVCamTest";
+			productReference = F5A131831B9E777300DBE4EB /* 4:3AVCamTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A1319B1B9E777300DBE4EB /* 4:3AVCamTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A131B31B9E777300DBE4EB /* Build configuration list for PBXNativeTarget "4:3AVCamTestTests" */;
+			buildPhases = (
+				F5A131981B9E777300DBE4EB /* Sources */,
+				F5A131991B9E777300DBE4EB /* Frameworks */,
+				F5A1319A1B9E777300DBE4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A1319E1B9E777300DBE4EB /* PBXTargetDependency */,
+			);
+			name = "4:3AVCamTestTests";
+			productName = "4:3AVCamTestTests";
+			productReference = F5A1319C1B9E777300DBE4EB /* 4:3AVCamTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5A131A61B9E777300DBE4EB /* 4:3AVCamTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A131B61B9E777300DBE4EB /* Build configuration list for PBXNativeTarget "4:3AVCamTestUITests" */;
+			buildPhases = (
+				F5A131A31B9E777300DBE4EB /* Sources */,
+				F5A131A41B9E777300DBE4EB /* Frameworks */,
+				F5A131A51B9E777300DBE4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A131A91B9E777300DBE4EB /* PBXTargetDependency */,
+			);
+			name = "4:3AVCamTestUITests";
+			productName = "4:3AVCamTestUITests";
+			productReference = F5A131A71B9E777300DBE4EB /* 4:3AVCamTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A1317B1B9E777300DBE4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					F5A131821B9E777300DBE4EB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 832QR2A7CG;
+					};
+					F5A1319B1B9E777300DBE4EB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 832QR2A7CG;
+						TestTargetID = F5A131821B9E777300DBE4EB;
+					};
+					F5A131A61B9E777300DBE4EB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 832QR2A7CG;
+						TestTargetID = F5A131821B9E777300DBE4EB;
+					};
+				};
+			};
+			buildConfigurationList = F5A1317E1B9E777300DBE4EB /* Build configuration list for PBXProject "4:3AVCamTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A1317A1B9E777300DBE4EB;
+			productRefGroup = F5A131841B9E777300DBE4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A131821B9E777300DBE4EB /* 4:3AVCamTest */,
+				F5A1319B1B9E777300DBE4EB /* 4:3AVCamTestTests */,
+				F5A131A61B9E777300DBE4EB /* 4:3AVCamTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A131811B9E777300DBE4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B2D0E31BA2B9E1006BB840 /* PlayViewController.xib in Resources */,
+				F5A131961B9E777300DBE4EB /* LaunchScreen.storyboard in Resources */,
+				F5A131931B9E777300DBE4EB /* Assets.xcassets in Resources */,
+				F5A131911B9E777300DBE4EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A1319A1B9E777300DBE4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A131A51B9E777300DBE4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A1317F1B9E777300DBE4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A1318E1B9E777300DBE4EB /* ViewController.m in Sources */,
+				F5A1318B1B9E777300DBE4EB /* AppDelegate.m in Sources */,
+				F5A1FA301BA1752D006CEB7E /* PlayViewController.m in Sources */,
+				F5B2D0E11BA2B96B006BB840 /* Recoder.m in Sources */,
+				F5A131881B9E777300DBE4EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A131981B9E777300DBE4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A131A11B9E777300DBE4EB /* __3AVCamTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A131A31B9E777300DBE4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A131AC1B9E777300DBE4EB /* __3AVCamTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A1319E1B9E777300DBE4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A131821B9E777300DBE4EB /* 4:3AVCamTest */;
+			targetProxy = F5A1319D1B9E777300DBE4EB /* PBXContainerItemProxy */;
+		};
+		F5A131A91B9E777300DBE4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A131821B9E777300DBE4EB /* 4:3AVCamTest */;
+			targetProxy = F5A131A81B9E777300DBE4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A1318F1B9E777300DBE4EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A131901B9E777300DBE4EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A131941B9E777300DBE4EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A131951B9E777300DBE4EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A131AE1B9E777300DBE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5A131AF1B9E777300DBE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A131B11B9E777300DBE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "4:3AVCamTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.--3AVCamTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5A131B21B9E777300DBE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "4:3AVCamTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.--3AVCamTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5A131B41B9E777300DBE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "4:3AVCamTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.--3AVCamTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4:3AVCamTest.app/4:3AVCamTest";
+			};
+			name = Debug;
+		};
+		F5A131B51B9E777300DBE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "4:3AVCamTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.--3AVCamTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4:3AVCamTest.app/4:3AVCamTest";
+			};
+			name = Release;
+		};
+		F5A131B71B9E777300DBE4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "4:3AVCamTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.--3AVCamTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "4:3AVCamTest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5A131B81B9E777300DBE4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "4:3AVCamTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.--3AVCamTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "4:3AVCamTest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A1317E1B9E777300DBE4EB /* Build configuration list for PBXProject "4:3AVCamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A131AE1B9E777300DBE4EB /* Debug */,
+				F5A131AF1B9E777300DBE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A131B01B9E777300DBE4EB /* Build configuration list for PBXNativeTarget "4:3AVCamTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A131B11B9E777300DBE4EB /* Debug */,
+				F5A131B21B9E777300DBE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A131B31B9E777300DBE4EB /* Build configuration list for PBXNativeTarget "4:3AVCamTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A131B41B9E777300DBE4EB /* Debug */,
+				F5A131B51B9E777300DBE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A131B61B9E777300DBE4EB /* Build configuration list for PBXNativeTarget "4:3AVCamTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A131B71B9E777300DBE4EB /* Debug */,
+				F5A131B81B9E777300DBE4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A1317B1B9E777300DBE4EB /* Project object */;
+}
